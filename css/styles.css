@@ -155,7 +155,7 @@ gap: 40px;
 /* =================== MAIN 1st block =================== */
 .main-banner {
   background: #2E2F42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)) url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)) , url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,6 +209,28 @@ gap: 40px;
 
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-icon-list {
+  display: flex;
+  gap: 24px;
+  
+}
+
+.features-item-icon {
+
+}
+
+.features-icon {
+  margin: 24px 100px;
+}
+.features-icon-wrap {
+  width: 264px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+  background: #F4F4FD;
+  gap: 24px;
 }
 /* ============ ===================== */
 
@@ -282,5 +304,30 @@ color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-text {
+  color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.footer-icon-wrap {
+  background-color: #4D5AE5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.footer-social-icon {
+  margin: 8px;
+  flex-shrink: 0;
+}
+
+.footer-icon-wrap:hover {
+background-color: #31D0AA;
 }
 /* ================= ==================== */
