@@ -155,6 +155,11 @@ gap: 40px;
 /* =================== MAIN 1st block =================== */
 .main-banner {
   background: #2E2F42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)) url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   padding-top: 188px;
   padding-bottom: 188px;
 }
