@@ -134,7 +134,7 @@ gap: 40px;
   position: relative;
 }
 
-.header-nav-item:hover::after {
+.header-list-item:hover:first-child .header-nav-item:after {
   content: '';
   position: absolute;
   left: 0;
@@ -166,7 +166,9 @@ gap: 40px;
 }
 
 .address-list-link:hover,
-.address-list-link:focus,
+.address-list-link:focus{
+  color: #404bbf;
+}
 .header-nav-item:focus,
 .header-nav-item:hover {
   color: #404bbf;
