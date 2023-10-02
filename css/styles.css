@@ -136,11 +136,10 @@ gap: 40px;
 .first-nav {
   color: #404bbf;
 }
-.header-nav-item::after {
+.first-nav::after {
   content: '';
   position: absolute;
   left: 0;
-  color: #404bbf;
   bottom: -1px;
   height: 4px;
   width: 100%;
