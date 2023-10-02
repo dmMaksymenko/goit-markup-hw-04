@@ -134,10 +134,11 @@ gap: 40px;
   position: relative;
 }
 
-.header-nav-item:hover:first-child::after {
+.header-nav-item:hover::after {
   content: '';
   position: absolute;
   left: 0;
+  color: #404bbf;
   bottom: -1px;
   height: 4px;
   width: 100%;
