@@ -133,10 +133,10 @@ gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
-.header-list-item > .first-nav {
+.first-nav {
   color: #404bbf;
 }
-.header-list-item:hover:first-child .header-nav-item:after {
+.header-list-item:hover .header-nav-item::after {
   content: '';
   position: absolute;
   left: 0;
